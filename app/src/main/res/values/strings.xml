@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">frm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="pregunta1">¿Qué color preferirías en la correa del reloj?</string>
+    <string name="negro">Negro</string>
+    <string name="azul">Azul</string>
+    <string name="verde">Verde</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="pregunta2">Sugerencia de tienda</string>
+    <string name="email">Email</string>
+    <string name="sugerencia">sugerencia</string>
+    <string name="editTextEmail">Email</string>
+
+    <string name="hello_blank_fragment">sugerencia</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pregunta1Fragment">
+
+    <fragment
+        android:id="@+id/pregunta1Fragment"
+        android:name="com.example.frm.Pregunta1Fragment"
+        android:label="fragment_pregunta1"
+        tools:layout="@layout/fragment_pregunta1" >
+        <action
+            android:id="@+id/action_pregunta1Fragment_to_pregunta2Fragment"
+            app:destination="@id/pregunta2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pregunta2Fragment"
+        android:name="com.example.frm.Pregunta2Fragment"
+        android:label="fragment_pregunta2"
+        tools:layout="@layout/fragment_pregunta2" >
+        <action
+            android:id="@+id/action_pregunta2Fragment_to_resultadosFragment"
+            app:destination="@id/resultadosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadosFragment"
+        android:name="com.example.frm.ResultadosFragment"
+        android:label="fragment_resultados"
+        tools:layout="@layout/fragment_resultados" />
+</navigation>
